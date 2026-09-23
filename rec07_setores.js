@@ -4,8 +4,11 @@
 // Crie um programa para cadastrar seis setores de uma fábrica e, ao final, listar todos os setores numerados.
 
 // O programa deve:
+// parte1
 // ☐ Criar um array vazio.
+// parte2
 // ☐ Usar um laço para solicitar 6 nomes de setores.
+// parte3
 // ☐ Adicionar cada nome ao array usando push().
 // ☐ Percorrer o array novamente após o cadastro.
 // ☐ Exibir no formato "1 - Montagem", "2 - Qualidade" etc.
@@ -13,3 +16,13 @@
 
 
 const entrada = require("readline-sync");
+
+const setor = {};
+
+for (let cadastro = 0; cadastro<= 6; cadastro++ ){
+    console.log(`Digite o nome do setor${cadastro+1}: `);
+    setor.push(nome);
+}
+
+console.log("==SETORES==");
+
